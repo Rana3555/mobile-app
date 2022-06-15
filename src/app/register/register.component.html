@@ -1,0 +1,30 @@
+<ion-header  [translucent]="true">
+
+</ion-header>
+<div class="imgcontainer">
+  <img src="../../assets/avatar-icon.svg" alt="Avatar" class="avatar">
+  <ion-text color="success">
+    <h1 class="text-center" style="color:#25af12"><strong>Register Here</strong></h1>
+  </ion-text>
+</div>  
+<ion-content>
+  <div class="container">
+    <p class="text-center" style="color:#25af12">Please fill in this form to create an account.</p>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+
+    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+    <button type="submit" class="registerbtn" routerLink="/login">Register</button>
+  </div>
+
+  <div class="container signin">
+    <p>Already have an account? <a href="#" routerLink="/login">Sign in</a>.</p>
+  </div>
+</ion-content>

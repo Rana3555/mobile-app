@@ -1,0 +1,30 @@
+<ion-header  [translucent]="true">
+  
+</ion-header>
+    <div class="imgcontainer">
+      <img src="../../assets/avatar-icon.svg" alt="Avatar" class="avatar">
+      <ion-text color="success">
+        <h1 class="text-center" style="color:#25af12"><strong> Login</strong></h1>
+      </ion-text>
+    </div>  
+
+<ion-content>
+<!-- <form action="action_page.php" method="post"> -->
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+    <ion-button  type="submit"expand="block" class="start" routerLink="/main">Login</ion-button>
+    <!-- <button >Login</button> -->
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn" routerLink="/register">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+<!-- </form> -->
+</ion-content>

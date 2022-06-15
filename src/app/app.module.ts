@@ -9,12 +9,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { DesignComponent } from './design/design.component';
 import { MainComponent } from './main/main.component';
 import { CartComponent } from './cart/cart.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [AppComponent,
   DesignComponent,
   MainComponent,
-  CartComponent
+  CartComponent,
+  LoginComponent,
+  RegisterComponent
   ],
   entryComponents: [],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
